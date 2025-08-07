@@ -22,5 +22,5 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("order", order))
 
-    print("Bot berjalan...")
+    print("Bot berjadlan...")
     app.run_polling()
