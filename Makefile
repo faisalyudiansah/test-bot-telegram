@@ -1,6 +1,9 @@
 setup:
 	chmod +x setup.sh
 
+install:
+	./setup.sh
+
 run:
 	python main.py
 
